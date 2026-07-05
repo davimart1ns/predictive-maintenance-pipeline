@@ -41,9 +41,9 @@ Para evitar que os dados gerados pelo SMOTE contaminassem as dobras de validaç�
 O algoritmo escolhido foi a **Random Forest (Floresta Aleatória)**. A otimização dos parâmetros foi realizada via **GridSearchCV** dentro do pipeline de reamostragem. 
 
 Os melhores hiperparâmetros encontrados com os dados balanceados foram:
-* `max_depth`: 12
-* `min_samples_split`: 5
-* `n_estimators`: 100
+* `max_depth`: 10
+* `min_samples_split`: 10
+* `n_estimators`: 50
 
 ---
 
